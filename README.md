@@ -9,6 +9,6 @@ I'll be using a windows computer to complete this course.
 2. Download a text editor, I'll be using PyCharm https://www.python.org/downloads/
 
 ## Hello World
-'''
+```
 print("Hello World")
-'''
+```
