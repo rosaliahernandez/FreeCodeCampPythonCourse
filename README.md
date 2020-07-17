@@ -54,4 +54,31 @@ print("he was " + character_age + " years old. ")
 print("He really liked the name " + character_name + ". ")
 print("but didn't like being " + character_age + ".")
 ```
-To keep text unchanged surround it using quotation marks, to add the variable utilize a plus sign
+To keep text unchanged surround it using quotation marks, to add the variable utilize a plus sign.
+Additionally, if you wanted to change the character's name half way through the story you could insert the name variable as an additional line at the point where the name change should occur. Remember Python is read from top to bottom, so it will take the updated variable and change the data for the lines that follow 
+```
+character_name = "John"
+character_age = "35"
+
+print("There once was a man named " + character_name + ", ")
+print("he was " + character_age + " years old. ")
+
+character_name = "Mike"
+print("He really liked the name " + character_name + ". ")
+print("but didn't like being " + character_age + ".")
+```
+## Storing data within a variable using strings, numbers, and booleans
+Strings: Used for texts, numbers, etc. must use quotation marks 
+```
+character_name = "George"
+```
+Number: Uses an integer
+```
+character_age = 50
+```
+Booleans: True or false values are stored here
+```
+isRed = True
+```
+## Working with Strings
+Coming Soon
