@@ -39,7 +39,7 @@ To create a variable for the man's name you'll need a variable, an assignment op
 ```
 character_name = "John"
 ```
-Now create another varible to change the character's name
+Now create another variable to change the character's name
 ```
 character_age = "35"
 ```
@@ -81,4 +81,59 @@ Booleans: True or false values are stored here
 isRed = True
 ```
 ## Working with Strings
+Remember strings belong inside quotation marks 
+```
+print("Hello World!")
+```
+Now in order to create a new line you need to add a "\n" where you want the new line to begin
+```
+print("Hello\nWorld!")
+```
+If you want to include a quotation mark use "\""
+```
+print("Hello\"World!\"")
+```
+You can use variables within strings as well in order to facilitate future changes and to concatenate strings. The variable phrase will be used in this example
+```
+phrase = "Giraffe Academy"
+print(phrase)
+print(phrase + " is cool.")
+```
+Functions perform specific operations, for example modify strings or obtain information about the strings. The following functions change the text to lower and upper case
+```
+phrase = "Giraffe Academy"
+print(phrase.lower())
+print(phrase.upper())
+```
+If you wanted to find out if the string was in uppercase, you could use the following function that will return a true or false reponse
+```
+phrase = "Giraffe Academy"
+print(phrase.isupper())
+ ```
+ Combining functions is also possible. For example you could convert the text to uppercase and check whether it is or is not in uppercase using the same line of code
+ ```
+ phrase = "Giraffe Academy"
+ print(phrase.upper().isupper())
+ ```
+ To find the number of characters within a string use len
+ ```
+phrase = "Giraffe Academy"
+print(len(phrase))
+ ```
+ In python, strings get indexed from the number 0. So if you wanted to find out the first character in a string you would use the following function
+ ```
+phrase = "Giraffe Academy"
+print(phrase[0])
+```
+The index functions can tell you where a specific character is located within a string. A value that you give to a function is a parameter. 
+```
+phrase = "Giraffe Academy"
+print(phrase.index("a"))
+```
+The replace function allows you to replace portions of a string. This example uses two parameters, the first is the text that you want to replace, the second is the text that should replace the the first.
+```
+phrase = "Giraffe Academy"
+print(phrase.replace("Giraffe","Elephant"))
+```
+## Working with Numbers
 Coming Soon
