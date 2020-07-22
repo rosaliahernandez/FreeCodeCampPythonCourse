@@ -193,4 +193,3 @@ To find the square root of a number, use  SQRT. The following line  returns 4.
 from math import * 
 print(sqrt(16))
 ```
-# Getting Input From Users
