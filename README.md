@@ -147,7 +147,7 @@ print(3 * (4 + 5))
 ```
 Modulus operator helps determine the remainder when it comes to division. The following line will return 1, since it's the remainder of 10 divided by 3. 
 ```
-print(10 % 3) #Return
+print(10 % 3)
 ```
 You can also use variable to store numbers
 ```
@@ -160,37 +160,37 @@ my_num = 5
 print(str(my_num) + " is my favorite number")
 ```
 Math functions can give you information about numbers or perform operations. 
-The ABS function gives you the absolute number of a value 
+The ABS function gives you the absolute number of a value. The following retunrs 5 
 ```
-my_num = -5 #Returns 5
+my_num = -5
 print(abs(my_num))
 ```
-The POW function allows numbers to have an exponent. This functions requires two numbers, one as a base and the other is the power
+The POW function allows numbers to have an exponent. This functions requires two numbers, one as a base and the other is the power. The following returns 9 
 ```
-print(pow(3, 2))  # Return 9
+print(pow(3, 2))
 ```
-The Max and Min functions can help you determine which number is either the largest or smallest
+The Max and Min functions can help you determine which number is either the largest or smallest. The following returns 6 for the first line and 4 for the second.  
 ```
-print(max(6, 4))  # Return 6
-print(min(6, 4))  # Return 4
+print(max(6, 4)) 
+print(min(6, 4))  
 ```
-Additionally, Python allows you to round numbers by using "round"
+Additionally, Python allows you to round numbers by using "round". The following returns 3. 
 ```
-print(round(3.3)) # Return 3
+print(round(3.3))
 ```
 You can obtain additional functions through Python's library using the following line
 ```
 from math import *
 ```
-Some of those functions include floor and ceil which rounds the number down or up
+Some of those functions include floor and ceil which rounds the number down or up. the following returns 3 for the first line and 4 for the second. 
 ```
 from math import * 
-print(floor(3.7))  # Return 3
-print(ceil(3.7))   # Return 4
+print(floor(3.7))
+print(ceil(3.7))  
 ```
-To find the square root of a number, use the following line
+To find the square root of a number, use  SQRT. The following line  returns 4. 
 ```
 from math import * 
-print(sqrt(16)) # Return 4
+print(sqrt(16))
 ```
 # Getting Input From Users
