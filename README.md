@@ -136,4 +136,61 @@ phrase = "Giraffe Academy"
 print(phrase.replace("Giraffe","Elephant"))
 ```
 ## Working with Numbers
-Coming Soon
+When it comes to working with numbers in Python, you'll be able to run arithetic. Decimals and negatives are accepted. The following line returns the number 5
+```
+print(1 + 4)
+```
+Order of operations is followed in Python, the first line returns 17, while the second returns 27 due to the parenthesis
+```
+print(3 * 4 + 5)
+print(3 * (4 + 5)) 
+```
+Modulus operator helps determine the remainder when it comes to division. The following line will return 1, since it's the remainder of 10 divided by 3. 
+```
+print(10 % 3) #Return
+```
+You can also use variable to store numbers
+```
+my_num = 5
+print(my_num)
+```
+Aside from basic arithmetic, you can also convert numbers to strings in the event that you wanted to print the number next to text. The following number would return, "5 is my favorite number"
+```
+my_num = 5
+print(str(my_num) + " is my favorite number")
+```
+Math functions can give you information about numbers or perform operations. 
+The ABS function gives you the absolute number of a value 
+```
+my_num = -5 #Returns 5
+print(abs(my_num))
+```
+The POW function allows numbers to have an exponent. This functions requires two numbers, one as a base and the other is the power
+```
+print(pow(3, 2))  # Return 9
+```
+The Max and Min functions can help you determine which number is either the largest or smallest
+```
+print(max(6, 4))  # Return 6
+print(min(6, 4))  # Return 4
+```
+Additionally, Python allows you to round numbers by using "round"
+```
+print(round(3.3)) # Return 3
+```
+You can obtain additional functions through Python's library using the following line
+```
+from math import *
+```
+Some of those functions include floor and ceil which rounds the number down or up
+```
+from math import * 
+print(floor(3.7))  # Return 3
+print(ceil(3.7))   # Return 4
+```
+To find the square root of a number, use the following line
+```
+from math import * 
+print(sqrt(16)) # Return 4
+```
+# Getting Input From Users
