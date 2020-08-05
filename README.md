@@ -203,3 +203,17 @@ age = input("Enter your age: ")
 print("Hello " + name + "! You are " + age)
 ```
 ## Building a Basic Calculator
+This project will request two numbers from the user, those will be stored in two separate variables, 
+```
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = int(num1) + int(num2)
+print(result)
+```
+If you use the code above, it'll only work w/ whole numbers. The first two lines are the variables that store the user's information, the third adds them, and the fourth prints. In order to add decimal numbers, use float as seen below
+```
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = float(num1) + float(num2)
+print(result)
+```
