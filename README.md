@@ -193,3 +193,13 @@ To find the square root of a number, use  SQRT. The following line  returns 4.
 from math import * 
 print(sqrt(16))
 ```
+## Getting Input From Users
+Allow user to input info into our program, we then store the info in a variable that will be used later.
+
+For example, the first two lines below are the variable that will hold the user's information, the third line will return Hello (user's name)! You are (age)
+```
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+print("Hello " + name + "! You are " + age)
+```
+## Building a Basic Calculator
