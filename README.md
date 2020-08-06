@@ -217,3 +217,46 @@ num2 = input("Enter another number: ")
 result = float(num1) + float(num2)
 print(result)
 ```
+## Mad Libs Game
+The Mad Libs Game will request information from the user and store those into variables that will then be printed 
+```
+color = input("Enter a color:")
+plural_noun = input("Enter a plural noun:")
+celebrity = input("Enter a celebrity's name:")
+
+print("Roses are " +color)
+print (plural_noun + " are blue")
+print("I love " + celebrity)
+```
+## Lists
+Lists help manage large amounts of data within Python. Typically related values are entered in lists. Within lists you can store strings, numbers, etc. 
+Index is the position of the elements within the list, the count starts at 0. This is useful for printing a specific element ex: the following will print the first element which is Kevin's name.
+```
+friends = ["Kevin", "Karen", "Jim"]
+
+print (friends[0])
+```
+If you use negatives, you would start from the right side, those numbers begin at -1. Ex: the following will print Jim
+```
+friends = ["Kevin", "Karen", "Jim"]
+
+print (friends[-1])
+```
+If you wanted to print all the elements after a certain index, you could write the number followed by a colon. For example, the following will produce all names after index 1, including itself.
+```
+friends = ["Kevin", "Karen", "Jim"]
+
+print (friends[1:])
+```
+If you needed a range, then you would enter the index that the list should begin on and the number after the last index you want included. Ex: the following will print, Karen and Jim's names, but not any after. 
+```
+friends = ["Kevin", "Karen", "Jim","Oscar","Toby"]
+
+print (friends[1:3])
+```
+If you needed to modify a value inside an arrray, you could by adding a line that has the variable and new value
+```
+friends = ["Kevin", "Karen", "Jim","Oscar","Toby"]
+friends[1] = "Mike"
+print (friends[1:3])
+```
