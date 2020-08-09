@@ -334,3 +334,13 @@ friends = ["kevin", "Karen", "Jim", "Oscar", "Toby", "Jim"]
 friends2 = friends.copy()
 print (friends2)
 ```
+## Tupples
+Tupples can store data, similiar to a list. Except they can't be changed, deleted, etc. Use the following to create a tupple for x, y coordinates
+```
+coordinates = (4, 5)
+print(coordinates[0])
+```
+## Functions
+Are a collection of code that perform a specific task
+
+
