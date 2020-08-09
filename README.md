@@ -260,3 +260,77 @@ friends = ["Kevin", "Karen", "Jim","Oscar","Toby"]
 friends[1] = "Mike"
 print (friends[1:3])
 ```
+## List Functions
+Extend function allows you to take a list & append another one to it
+```
+lucky_numbers = [4, 8, 15, 16, 23, 42]
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+friends.extend(lucky_numbers)
+
+print (friends)
+```
+You can use the append function to insert additional elements to an existing list, however, this will always add the new items to the end of the list
+```
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+friends.append("Jerry")
+
+print (friends)
+```
+If you want to add an element at a specific point, you would use the insert function. For this you will need two parameters, the first is the position, then the name of the element
+```
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+friends.insert(1, "Kim")
+
+print (friends)
+```
+Use the remove funciton to remove an element from the list
+```
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+friends.remove("Jim")
+
+print (friends)
+```
+You could also use the clear function to remove all elements within a list
+```
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+friends.clear()
+
+print (friends)
+```
+The pop function can be used to remove the last element from a list
+```
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+friends.pop()
+
+print (friends)
+```
+If you needed to know if a certain element was in a list use the index function within the print function, it'll also give you their index position
+```
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+
+print (friends.index("Oscar"))
+```
+You could also count how many times an element appears within a list, in this example there are two Jims
+```
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby", "Jim"]
+
+print (friends.count("Jim"))
+```
+You could also sort the list Alphabetically or numerically (if you entered in integers) by using the sort function
+```
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby", "Jim"]
+friends.sort()
+print (friends)
+```
+to Reverse the order, use the reverse function
+```
+friends = ["kevin", "Karen", "Jim", "Oscar", "Toby", "Jim"]
+friends.reverse()
+print (friends)
+```
+If you wanted to make a copy of the currrent list use the copy function
+```
+friends = ["kevin", "Karen", "Jim", "Oscar", "Toby", "Jim"]
+friends2 = friends.copy()
+print (friends2)
+```
