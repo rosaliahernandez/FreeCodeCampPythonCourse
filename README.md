@@ -342,5 +342,18 @@ print(coordinates[0])
 ```
 ## Functions
 Are a collection of code that perform a specific task
+The code within a function will only perform when we add a calling. Here the second   
+sayhi() serves as the calling
+```
+def sayhi():
+    print("Hello User")
+sayhi()
+```
+name all functions in lowercase, if multiple words use an underscore to separate the words in the name. The following function is an example of the ability to utilize Python to produce requested commands through functions. 
+```
+def say_hi(name, age):
+    print("Hello " + name + ", you are " + str(age))
 
-
+say_hi("Mike", "35")
+say_hi("Steve", "80")
+```
